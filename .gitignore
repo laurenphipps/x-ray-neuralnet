@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Data folder
+/chest_xray
+
+# ds store removal
+.DS_Store
+
