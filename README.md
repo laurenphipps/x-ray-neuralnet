@@ -9,13 +9,10 @@
 
 ```
 ├── chest_xray                   <- Images used in data sets
-├── EDA                          <- Notebooks pertaining to EDA and Visualization
 ├── images                       <- Images and charts used in this project
-├── ModelingProcess              <- Notebooks showing interative modeling process
 ├── Final-Notebook.ipynb         <- Final notebook of project
 ├── README.md                    <- The high-level overview of this project
-├── Presentation.pdf             <- PDF version of project presentation
-└── datacleaning.py              <- Code file for data cleaning and preparation
+└── Presentation.pdf             <- PDF version of project presentation
 ```
 
 ## Overview
