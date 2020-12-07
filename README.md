@@ -38,15 +38,18 @@ This is an x-ray from a patient with pneuomonia. The right side of the lungs is 
 
 The mean image of a normal x-ray and an x-ray with pneumonia can be seen below. This further highlights the cloudiness that is present in an x-ray with pneumonia that the model will be identifying. 
 
+![mean-health](images/normal-mean.jpeg)
+![mean-pneu](images/pneumonia-mean.jpeg)
+
 ## Results
 
-The best model was found to be a Convolutionary Neural Network. It used data augmenting  
+The best model was found to be a Convolutional Neural Network. It used data augmenting to rotate the images. Augmenting the images provides with the model with more information about the images and prevents the model from simply "memorizing" what the x-rays look like. The model consisted of **four convolutional layers with a 'relu' activation function**, followed by **four dense layers with a 'tanh' activation function with dropout layers in between**, and ending with an **output layer with a 'sigmoid' activation function**. The model had **15 epochs**. 
 
 
 ## Evaluation
 
-For this project, we focused on the recall and accuracy score. With identifying pneumonia, it is more important to minimize false negatives, as it is worse to say someone does not have pneumonia when they do and have them not receive treatment. In order to ensure we were minimized false negatives, we used recall. We also used accuracy as the measure between sets to determine if models were overfit or underfit. The final model has an accuracy of ***\[insert acuracy] and a recall of \[insert recall score]***. 
+For this project, we focused on the recall and accuracy score. With identifying pneumonia, it is more important to minimize false negatives, as it is worse to say someone does not have pneumonia when they do and have them not receive treatment. In order to ensure we were minimized false negatives, we used recall. We also used accuracy as the measure between sets to determine if models were overfit or underfit. The final model has an accuracy of 87.8% and a recall score of 89.8%. 
 
 ## Conclusions and Next Steps
 
-Overall, the model will successfully identify lung x-rays with pneuomonia, which can be used to determine which patients need treatment. However, more data can always be added to the model to continue to improve the quality of the model and ensure that no patients are incorrectly labeled as healthy when they actually need treatment. The next steps are to continue to iterate on the model and look more closely at the images that it is incorrectly classifying to determine commonalities and address those issues in future models. 
+Overall, the model will successfully identify lung x-rays with pneuomonia, which can be used to determine which patients need treatment. However, more data can always be added to the model to continue to improve the quality of the model and ensure that no patients are incorrectly labeled as healthy when they actually need treatment. The next steps are to continue to iterate on the model and look more closely at the images that it incorrectly classifies to determine commonalities and address those issues in future models. 
