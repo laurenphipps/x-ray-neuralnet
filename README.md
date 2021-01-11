@@ -1,4 +1,4 @@
-## Identifying Pneuomonia in Chest X-Rays Using Neural Networks
+## Identifying Pneumonia in Chest X-Rays Using Neural Networks
 #### ***Justin Fernandez and Lauren Phipps***
 ![xray](images/xraypic.jpg)
 <span>Photo by <a href="https://unsplash.com/@cdc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CDC</a> on <a href="https://unsplash.com/s/photos/pneumonia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
